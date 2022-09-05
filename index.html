@@ -8,18 +8,22 @@
     <title>Product: Samsung-amazon-india</title>
 </head>
 <body>
+    <!-- Header section starts -->
     <header id="header">
+        <!--logo symbol-->
      <div id="logo">
         <img src="Amazon_icon.png" alt="it is an amazon logo" id="header-image">
      </div>
+     <!-- nav bar-->
      <nav id="nav-bar">
-        <p class="nav-link">Summary</p>
-        <p class="nav-link">About the item</p>
-        <p class="nav-link">Review</p>
+        <p class="nav-link"><a href="#features">Summary</a></p>
+        <p class="nav-link"><a href="#abouttheitem">About the item</a></p>
+        <p class="nav-link"><a href="#review">Review</a></p>
      </nav>
     </header>
-    <hr>
+    <!-- main section starts -->
     <main>
+        <!-- the form element -->
         <div id="form-elements">
             <p>Super Fast Delivery, With in 48 Hours</p>
             <form id="form" action="https://www.freecodecamp.com/email-submit">
@@ -27,14 +31,33 @@
                 <label for="email">Email
                     <input type="email" id="email" name="email" placeholder="Enter your email..">
                 </label>
+                <!-- submit button-->
                 <label for="submit">
                     <input type="submit" id="submit" value="Get Started">
                 </label> 
             </form>
         </div>
         <br>
+        <!-- rolling out the intro -->
+        <div id="intro">
+            <h1>What makes us Unique ?</h1>
+            <div class="flex">
+                <img src="flames.png" alt="an image of flame">
+                <h2>Premium Materials</h1>
+            </div>
+            <div class="flex">
+                <img src="delivery-man.png" alt="an image of flame">
+                <h2>Fast Delivery</h1>
+            </div>
+            <div class="flex">
+                <img src="assurance.png" alt="an image of quality assurance">
+                <h2>Quality Assurance</h1>
+            </div>
+        </div>
+        <!-- navigation link sections-->
+        <!-- features section-->
         <div id="features">
-          <p>Summary: </p>
+          <p>Summary of our Product: </p>
           <ul>
             <li>Style name: 6GB RAM, 128GB Storage</li>
             <li>Cellular Technology: 	5G, 4G LTE</li>
@@ -44,6 +67,7 @@
             <li>Network Service Provider: 	Unlocked for All Carriers</li>
           </ul>
         </div>
+        <!-- about the item section-->
         <div id="abouttheitem">
             <p>About the Item: </p>
             <ul>
@@ -54,13 +78,24 @@
                 <li>Android v11.0, One UI 3.1 operating system, 5000mAH lithium-ion battery, 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase</li>
             </ul>
         </div>
+        <!-- the youtube video section-->
         <div class="video" id="review">
+            <p>Watch the Review here: </p>
             <iframe id ="video"width="560" height="315" src="https://www.youtube.com/embed/nuzOtu0FklI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+        <!--pricing section starts -->
         <div id="pricing">
-          <div id="actual-price">
-            
-          </div>
+            <p>PRICING DETAILS: </p>
+            <fieldset id="1stprice">
+                <p>6GB RAM, 128GB Storage</p>
+                <p>&#x20B9;19,999.00</p>
+                <button type="submit">Select</button>
+            </fieldset>
+            <fieldset id="2ndprice">
+                <p>8GB RAM, 128GB Storage</p>
+                <p>&#x20B9;21,199.00</p>
+                <button type="submit">Select</button>
+            </fieldset>
         </div>
     </main>
 </body>
