@@ -18,16 +18,16 @@
      </div>
      <!-- nav bar-->
      <nav id="nav-bar">
-        <p class="nav-link"><a href="#features">Summary</a></p>
-        <p class="nav-link"><a href="#abouttheitem">About the item</a></p>
-        <p class="nav-link"><a href="#review">Review</a></p>
+        <p class="nav-link"><a href="#intro">Features</a></p>
+        <p class="nav-link"><a href="#review">How it works</a></p>
+        <p class="nav-link"><a href="#pricing">Pricing</a></p>
      </nav>
     </header>
     <!-- main section starts -->
     <main>
         <!-- the form element -->
         <div id="form-elements">
-            <p id="statement">Super Fast Delivery, With in 48 Hours</p>
+            <p id="statement"><strong>Super Fast Delivery, With in 48 Hours</strong></p>
             <form id="form" action="https://www.freecodecamp.com/email-submit">
                 <p id="statement2">Enter Your Email Here, and We will connect With You</p>
                 <label for="email">
@@ -45,76 +45,50 @@
         <div id="intro">
             <h1>What makes us Unique ?</h1>
             <div class="flex">
-                <img src="flames.png" alt="an image of flame">
+                <img src="flames.png" alt="an image of flame" class="flex-img">
                 <h2>Premium Materials</h2>
             </div>
             <div class="flex">
-                <img src="delivery-man.png" alt="an image of flame">
+                <img src="delivery-man.png" alt="an image of flame" class="flex-img">
                 <h2>Fast Delivery</h2>
             </div>
             <div class="flex">
-                <img src="assurance.png" alt="an image of quality assurance">
+                <img src="assurance.png" alt="an image of quality assurance" class="flex-img">
                 <h2>Quality Assurance</h2>
             </div>
         </div>
-        <div id="product-img">
-            <img src="https://m.media-amazon.com/images/I/61dVu7B8ALL._SL1500_.jpg" alt="samsung mobile phone image">
-            <figcaption>
-                <em>Samsung Galaxy M52 5G (ICY Blue, 8GB RAM, 128GB Storage)</em>
-            </figcaption>
         </div>
         <!-- navigation link sections-->
         <!-- features section-->
-        <div id="features">
-          <p>Summary of our Product: </p>
-          <ul>
-            <li>Style name: 6GB RAM, 128GB Storage</li>
-            <li>Cellular Technology: 	5G, 4G LTE</li>
-            <li>Model Name: 	Samsung Galaxy M52 5G</li>
-            <li>Screen Size: 	6.7 Inches</li>
-            <li>Connectivity technologies: 	WiFi Bluetooth;USB;NFC</li>
-            <li>Network Service Provider: 	Unlocked for All Carriers</li>
-          </ul>
-        </div>
-        <!-- about the item section-->
-        <div id="abouttheitem">
-            <p>About the Item: </p>
-            <ul>
-                <li>Triple camera setup-64MP (F 1.8) main camera + 12MP (F2.2) Ultra wide camera+ 5MP (F2.4) depth camera 32MP (F2.2) front camera </li>
-                <li>16.95 centimeters (6.7-inch) Super AMOLED Plus- Infinity O display, FHD+ resolution 1080 x 2400 (FHD+) pixels protected by Gorilla Glass 5</li>
-                <li>Qualcomm SDM 778G Octa Core 2.4GHz,1.8GHz Processor with the 11 band support for a True 5G experience </li>
-                <li>Monster 5000 mAh Battery | Memory, Storage & SIM: 8GB RAM | 128GB internal memory expandable up to 1TB| SIM 1 + Hybrid (SIM or MicroSD)</li>
-                <li>Android v11.0, One UI 3.1 operating system, 5000mAH lithium-ion battery, 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase</li>
-            </ul>
-        </div>
+        <div class="outer">
         <!-- the youtube video section-->
-        <div class="video" id="review">
-            <p>Watch the Review here: </p>
-            <iframe id ="video"width="560" height="315" src="https://www.youtube.com/embed/nuzOtu0FklI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+            <div class="video" id="review">
+                <iframe id ="video"width="560" height="315" src="https://www.youtube.com/embed/nuzOtu0FklI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         <!--pricing section starts -->
+        </div>
+        <p class="pricing-text"><strong>PRICING DETAILS: </strong></p>
         <div id="pricing">
-            <p>PRICING DETAILS: </p>
-            <fieldset id="1stprice">
-                <p>6GB RAM, 128GB Storage</p>
+            <div id="fstprice">
+                <p id="pfirst">6GB RAM, 128GB Storage</p>
                 <p>&#x20B9;19,999.00</p>
                 <button type="submit">Select</button>
-            </fieldset>
-            <fieldset id="2ndprice">
-                <p>8GB RAM, 128GB Storage</p>
+            </div>
+            <div id="secoundprice">
+                <p id="pfirst">8GB RAM, 128GB Storage</p>
                 <p>&#x20B9;21,199.00</p>
                 <button type="submit">Select</button>
-            </fieldset>
+            </div>
         </div>
     </main>
     <footer>
         <div id="top">
-            <p>Privacy</p>
-            <p>Terms</p>
-            <p>Contact</p>
+            <p class="space"><strong>Privacy</strong></p>
+            <p class="space"><strong>Terms</strong></p>
+            <p class="space"><strong>Contact</strong></p>
         </div>
         <div id="contact">
-            <p>&copy;Copyright 2024, Indadeep Halder</p>
+            <p class="copy">&copy;Copyright 2024, Indadeep Halder</p>
         </div>
     </footer>
 </body>
